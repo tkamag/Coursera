@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c93d05dc326a4f2abcc452f74f827bb5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c93d05dc326a4f2abcc452f74f827bb5" ></div>
+        
+</body>
+<script>    
+    
+            var map_c93d05dc326a4f2abcc452f74f827bb5 = L.map(
+                "map_c93d05dc326a4f2abcc452f74f827bb5",
+                {
+                    center: [48.8566969, 2.3514616],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5f18fee6d2684ba88d42f4cef3114a6f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c93d05dc326a4f2abcc452f74f827bb5);
+        
+    
+            var circle_marker_9a222af98c074538bc187b6439108877 = L.circleMarker(
+                [48.8680083374, 2.34469912743],
+                {"bubblingMouseEvents": true, "color": "#00b5eb", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#00b5eb", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c93d05dc326a4f2abcc452f74f827bb5);
+        
+    
+        var popup_74a29810e9ab40e08436e93138590329 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f085bdd7c044f10a3a3caa07b8a796e = $(`<div id="html_8f085bdd7c044f10a3a3caa07b8a796e" style="width: 100.0%; height: 100.0%;">Mail Cluster 2</div>`)[0];
+            popup_74a29810e9ab40e08436e93138590329.setContent(html_8f085bdd7c044f10a3a3caa07b8a796e);
+        
+
+        circle_marker_9a222af98c074538bc187b6439108877.bindPopup(popup_74a29810e9ab40e08436e93138590329)
+        ;
+
+        
+    
+    
+            var circle_marker_fbf2ef38983e4c91ae386fedfa34613e = L.circleMarker(
+                [48.8671501183, 2.35008019041],
+                {"bubblingMouseEvents": true, "color": "#00b5eb", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#00b5eb", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c93d05dc326a4f2abcc452f74f827bb5);
+        
+    
+        var popup_a8bb44e77d664360b3f1c12c0e2938c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18f581f4d1e44e00bdef1212e1a49df4 = $(`<div id="html_18f581f4d1e44e00bdef1212e1a49df4" style="width: 100.0%; height: 100.0%;">Bonne-Nouvelle Cluster 2</div>`)[0];
+            popup_a8bb44e77d664360b3f1c12c0e2938c8.setContent(html_18f581f4d1e44e00bdef1212e1a49df4);
+        
+
+        circle_marker_fbf2ef38983e4c91ae386fedfa34613e.bindPopup(popup_a8bb44e77d664360b3f1c12c0e2938c8)
+        ;
+
+        
+    
+    
+            var circle_marker_bf2fa05140f649baa156db428a1219a2 = L.circleMarker(
+                [48.8693066381, 2.33343180766],
+                {"bubblingMouseEvents": true, "color": "#00b5eb", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#00b5eb", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c93d05dc326a4f2abcc452f74f827bb5);
+        
+    
+        var popup_3dedd01cd7d9426fb58a2fa3780021b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a0b466ec1de4f0dafcb1addea1e01ca = $(`<div id="html_4a0b466ec1de4f0dafcb1addea1e01ca" style="width: 100.0%; height: 100.0%;">Gaillon Cluster 2</div>`)[0];
+            popup_3dedd01cd7d9426fb58a2fa3780021b9.setContent(html_4a0b466ec1de4f0dafcb1addea1e01ca);
+        
+
+        circle_marker_bf2fa05140f649baa156db428a1219a2.bindPopup(popup_3dedd01cd7d9426fb58a2fa3780021b9)
+        ;
+
+        
+    
+    
+            var circle_marker_a8ec82a6007a45f487bff4c8ab090df9 = L.circleMarker(
+                [48.8691001998, 2.33946074375],
+                {"bubblingMouseEvents": true, "color": "#00b5eb", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#00b5eb", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c93d05dc326a4f2abcc452f74f827bb5);
+        
+    
+        var popup_ea65daca79c64315a2fa46a8c4ef61c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb87e359b3544fff90e1ea4c7e73bc0d = $(`<div id="html_fb87e359b3544fff90e1ea4c7e73bc0d" style="width: 100.0%; height: 100.0%;">Vivienne Cluster 2</div>`)[0];
+            popup_ea65daca79c64315a2fa46a8c4ef61c3.setContent(html_fb87e359b3544fff90e1ea4c7e73bc0d);
+        
+
+        circle_marker_a8ec82a6007a45f487bff4c8ab090df9.bindPopup(popup_ea65daca79c64315a2fa46a8c4ef61c3)
+        ;
+
+        
+    
+    
+            var circle_marker_ac2c56b84d3e4d49a530c4a0cf2859a8 = L.circleMarker(
+                [48.851585175, 2.36476795387],
+                {"bubblingMouseEvents": true, "color": "#ffb360", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb360", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c93d05dc326a4f2abcc452f74f827bb5);
+        
+    
+        var popup_3df49d8e8a1a4ece929249ac6eab474e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18e1423cbe294688873ec7ea6751ce30 = $(`<div id="html_18e1423cbe294688873ec7ea6751ce30" style="width: 100.0%; height: 100.0%;">Arsenal Cluster 4</div>`)[0];
+            popup_3df49d8e8a1a4ece929249ac6eab474e.setContent(html_18e1423cbe294688873ec7ea6751ce30);
+        
+
+        circle_marker_ac2c56b84d3e4d49a530c4a0cf2859a8.bindPopup(popup_3df49d8e8a1a4ece929249ac6eab474e)
+        ;
+
+        
+    
+    
+            var circle_marker_8f279c86ec96442cbefee9cbb51b9265 = L.circleMarker(
+                [48.8585213723, 2.35166696714],
+                {"bubblingMouseEvents": true, "color": "#ffb360", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb360", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c93d05dc326a4f2abcc452f74f827bb5);
+        
+    
+        var popup_63d41aa224f7496d9bb0c2a2dd775320 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c5295d13f3b459cbccae84e02eb562b = $(`<div id="html_4c5295d13f3b459cbccae84e02eb562b" style="width: 100.0%; height: 100.0%;">Saint-Merri Cluster 4</div>`)[0];
+            popup_63d41aa224f7496d9bb0c2a2dd775320.setContent(html_4c5295d13f3b459cbccae84e02eb562b);
+        
+
+        circle_marker_8f279c86ec96442cbefee9cbb51b9265.bindPopup(popup_63d41aa224f7496d9bb0c2a2dd775320)
+        ;
+
+        
+    
+    
+            var circle_marker_3f9f1a5a30c845eb82301642b9709081 = L.circleMarker(
+                [48.8528955862, 2.35277501212],
+                {"bubblingMouseEvents": true, "color": "#ffb360", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb360", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c93d05dc326a4f2abcc452f74f827bb5);
+        
+    
+        var popup_0a78b5722b014cce944c3e3d81d70881 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_106f562ee2844acfa10fb17a61541397 = $(`<div id="html_106f562ee2844acfa10fb17a61541397" style="width: 100.0%; height: 100.0%;">Notre-Dame Cluster 4</div>`)[0];
+            popup_0a78b5722b014cce944c3e3d81d70881.setContent(html_106f562ee2844acfa10fb17a61541397);
+        
+
+        circle_marker_3f9f1a5a30c845eb82301642b9709081.bindPopup(popup_0a78b5722b014cce944c3e3d81d70881)
+        ;
+
+        
+    
+    
+            var circle_marker_a9fe850166d44282b0a10425b5f9ae2c = L.circleMarker(
+                [48.8557186509, 2.35816233385],
+                {"bubblingMouseEvents": true, "color": "#ffb360", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb360", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c93d05dc326a4f2abcc452f74f827bb5);
+        
+    
+        var popup_1589b403fa2d44dc865a99135a2ab287 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_407845b6141c49878db668ba41c6dbf5 = $(`<div id="html_407845b6141c49878db668ba41c6dbf5" style="width: 100.0%; height: 100.0%;">Saint-Gervais Cluster 4</div>`)[0];
+            popup_1589b403fa2d44dc865a99135a2ab287.setContent(html_407845b6141c49878db668ba41c6dbf5);
+        
+
+        circle_marker_a9fe850166d44282b0a10425b5f9ae2c.bindPopup(popup_1589b403fa2d44dc865a99135a2ab287)
+        ;
+
+        
+    
+    
+            var circle_marker_944b8cfcff7d476fbfff33134fb0aa0b = L.circleMarker(
+                [48.8419401934, 2.35689388962],
+                {"bubblingMouseEvents": true, "color": "#ffb360", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb360", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c93d05dc326a4f2abcc452f74f827bb5);
+        
+    
+        var popup_2eccf560376540ac8c9d8e23378bd1b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_995376ffa8d943c5a06c16c36978db76 = $(`<div id="html_995376ffa8d943c5a06c16c36978db76" style="width: 100.0%; height: 100.0%;">Jardin-des-Plantes Cluster 4</div>`)[0];
+            popup_2eccf560376540ac8c9d8e23378bd1b8.setContent(html_995376ffa8d943c5a06c16c36978db76);
+        
+
+        circle_marker_944b8cfcff7d476fbfff33134fb0aa0b.bindPopup(popup_2eccf560376540ac8c9d8e23378bd1b8)
+        ;
+
+        
+    
+    
+            var circle_marker_b38665d3a9054d299e60d843b3ca9fbf = L.circleMarker(
+                [48.8490447659, 2.34574660019],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c93d05dc326a4f2abcc452f74f827bb5);
+        
+    
+        var popup_94bdc07bd3204ae79b42b1e16fe6714a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3814a31077d64d69ada7318602d7cd00 = $(`<div id="html_3814a31077d64d69ada7318602d7cd00" style="width: 100.0%; height: 100.0%;">Sorbonne Cluster 1</div>`)[0];
+            popup_94bdc07bd3204ae79b42b1e16fe6714a.setContent(html_3814a31077d64d69ada7318602d7cd00);
+        
+
+        circle_marker_b38665d3a9054d299e60d843b3ca9fbf.bindPopup(popup_94bdc07bd3204ae79b42b1e16fe6714a)
+        ;
+
+        
+    
+    
+            var circle_marker_eb9c90c170c74d718411685aeaf66caf = L.circleMarker(
+                [48.841684288, 2.34386092632],
+                {"bubblingMouseEvents": true, "color": "#ffb360", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb360", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c93d05dc326a4f2abcc452f74f827bb5);
+        
+    
+        var popup_585a549deabb48359acb4df9f898c18a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53d024d53af14cf797e77e22be73bcaa = $(`<div id="html_53d024d53af14cf797e77e22be73bcaa" style="width: 100.0%; height: 100.0%;">Val-de-Grâce Cluster 4</div>`)[0];
+            popup_585a549deabb48359acb4df9f898c18a.setContent(html_53d024d53af14cf797e77e22be73bcaa);
+        
+
+        circle_marker_eb9c90c170c74d718411685aeaf66caf.bindPopup(popup_585a549deabb48359acb4df9f898c18a)
+        ;
+
+        
+    
+    
+            var circle_marker_83754c91a7484d388be4eac0175a844a = L.circleMarker(
+                [48.8476636355, 2.35409315338],
+                {"bubblingMouseEvents": true, "color": "#ffb360", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb360", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c93d05dc326a4f2abcc452f74f827bb5);
+        
+    
+        var popup_3cd82c23d8874814a4b911a9042f0fad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf3d96ac6bf14d779c7423704465e57b = $(`<div id="html_cf3d96ac6bf14d779c7423704465e57b" style="width: 100.0%; height: 100.0%;">Saint-Victor Cluster 4</div>`)[0];
+            popup_3cd82c23d8874814a4b911a9042f0fad.setContent(html_cf3d96ac6bf14d779c7423704465e57b);
+        
+
+        circle_marker_83754c91a7484d388be4eac0175a844a.bindPopup(popup_3cd82c23d8874814a4b911a9042f0fad)
+        ;
+
+        
+    
+    
+            var circle_marker_6c4ce9e11a654627a9e46dbd0b366732 = L.circleMarker(
+                [48.8585149661, 2.31644474034],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c93d05dc326a4f2abcc452f74f827bb5);
+        
+    
+        var popup_51f4dbb8a55f4d90876b90f9376759eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b185f18de0d648409239a801e5d8d75e = $(`<div id="html_b185f18de0d648409239a801e5d8d75e" style="width: 100.0%; height: 100.0%;">Invalides Cluster 0</div>`)[0];
+            popup_51f4dbb8a55f4d90876b90f9376759eb.setContent(html_b185f18de0d648409239a801e5d8d75e);
+        
+
+        circle_marker_6c4ce9e11a654627a9e46dbd0b366732.bindPopup(popup_51f4dbb8a55f4d90876b90f9376759eb)
+        ;
+
+        
+    
+    
+            var circle_marker_9155a45dfd0a46b686c32219c1e8d560 = L.circleMarker(
+                [48.8503592615, 2.31103093627],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c93d05dc326a4f2abcc452f74f827bb5);
+        
+    
+        var popup_bee6ae52c63043cdbd0164db6e5e80ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96d4928ac15c4c858ae1d1328b1896f5 = $(`<div id="html_96d4928ac15c4c858ae1d1328b1896f5" style="width: 100.0%; height: 100.0%;">Ecole-Militaire Cluster 0</div>`)[0];
+            popup_bee6ae52c63043cdbd0164db6e5e80ba.setContent(html_96d4928ac15c4c858ae1d1328b1896f5);
+        
+
+        circle_marker_9155a45dfd0a46b686c32219c1e8d560.bindPopup(popup_bee6ae52c63043cdbd0164db6e5e80ba)
+        ;
+
+        
+    
+    
+            var circle_marker_89c9665626f140189c40185116ba9f11 = L.circleMarker(
+                [48.8582999039, 2.30154155569],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c93d05dc326a4f2abcc452f74f827bb5);
+        
+    
+        var popup_00c476cce63743d3bd1de3b42ce11ef4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66971d3da0a74e19ac5bcf800d90c56f = $(`<div id="html_66971d3da0a74e19ac5bcf800d90c56f" style="width: 100.0%; height: 100.0%;">Gros-Caillou Cluster 0</div>`)[0];
+            popup_00c476cce63743d3bd1de3b42ce11ef4.setContent(html_66971d3da0a74e19ac5bcf800d90c56f);
+        
+
+        circle_marker_89c9665626f140189c40185116ba9f11.bindPopup(popup_00c476cce63743d3bd1de3b42ce11ef4)
+        ;
+
+        
+    
+    
+            var circle_marker_808fffc42a9e43b78e994b1f44f62dbd = L.circleMarker(
+                [48.8552632694, 2.32558765258],
+                {"bubblingMouseEvents": true, "color": "#80ffb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#80ffb4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c93d05dc326a4f2abcc452f74f827bb5);
+        
+    
+        var popup_a97b79458c554b65af6d3842bde449bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9f1349566c5404fab04161b6fe9fc08 = $(`<div id="html_b9f1349566c5404fab04161b6fe9fc08" style="width: 100.0%; height: 100.0%;">Saint-Thomas-d&#39;Aquin Cluster 3</div>`)[0];
+            popup_a97b79458c554b65af6d3842bde449bf.setContent(html_b9f1349566c5404fab04161b6fe9fc08);
+        
+
+        circle_marker_808fffc42a9e43b78e994b1f44f62dbd.bindPopup(popup_a97b79458c554b65af6d3842bde449bf)
+        ;
+
+        
+    
+    
+            var circle_marker_fff9a25f0fd24d4497ea319176b3162f = L.circleMarker(
+                [48.862557245, 2.35485151825],
+                {"bubblingMouseEvents": true, "color": "#ffb360", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb360", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c93d05dc326a4f2abcc452f74f827bb5);
+        
+    
+        var popup_143fb6c2d0e94b94b6b24a3407d56244 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48fa8d2e86c843bc9a37115408a05dd6 = $(`<div id="html_48fa8d2e86c843bc9a37115408a05dd6" style="width: 100.0%; height: 100.0%;">Sainte-Avoie Cluster 4</div>`)[0];
+            popup_143fb6c2d0e94b94b6b24a3407d56244.setContent(html_48fa8d2e86c843bc9a37115408a05dd6);
+        
+
+        circle_marker_fff9a25f0fd24d4497ea319176b3162f.bindPopup(popup_143fb6c2d0e94b94b6b24a3407d56244)
+        ;
+
+        
+    
+    
+            var circle_marker_bb1d0db0c5a94880a04cb0ab9ee8729d = L.circleMarker(
+                [48.8664702895, 2.35708313106],
+                {"bubblingMouseEvents": true, "color": "#ffb360", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb360", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c93d05dc326a4f2abcc452f74f827bb5);
+        
+    
+        var popup_c7d7230b7ce249a9b2eb3ce7703a2fce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dad72f035a9b4b4eb6e4adfc1b23453a = $(`<div id="html_dad72f035a9b4b4eb6e4adfc1b23453a" style="width: 100.0%; height: 100.0%;">Arts-et-Métiers Cluster 4</div>`)[0];
+            popup_c7d7230b7ce249a9b2eb3ce7703a2fce.setContent(html_dad72f035a9b4b4eb6e4adfc1b23453a);
+        
+
+        circle_marker_bb1d0db0c5a94880a04cb0ab9ee8729d.bindPopup(popup_c7d7230b7ce249a9b2eb3ce7703a2fce)
+        ;
+
+        
+    
+    
+            var circle_marker_2181619953184aa7b4a05aa2fb5ebc56 = L.circleMarker(
+                [48.8591924127, 2.36320505733],
+                {"bubblingMouseEvents": true, "color": "#ffb360", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb360", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c93d05dc326a4f2abcc452f74f827bb5);
+        
+    
+        var popup_c5ddd3f9111c4d8d9dee54d9f5db9807 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5fe9ce8e10ae48ce8df1ecafbebb3f19 = $(`<div id="html_5fe9ce8e10ae48ce8df1ecafbebb3f19" style="width: 100.0%; height: 100.0%;">Archives Cluster 4</div>`)[0];
+            popup_c5ddd3f9111c4d8d9dee54d9f5db9807.setContent(html_5fe9ce8e10ae48ce8df1ecafbebb3f19);
+        
+
+        circle_marker_2181619953184aa7b4a05aa2fb5ebc56.bindPopup(popup_c5ddd3f9111c4d8d9dee54d9f5db9807)
+        ;
+
+        
+    
+    
+            var circle_marker_5ea258621f1c48e6a6150e71f5d33ca3 = L.circleMarker(
+                [48.863887392, 2.36312330099],
+                {"bubblingMouseEvents": true, "color": "#ffb360", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb360", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c93d05dc326a4f2abcc452f74f827bb5);
+        
+    
+        var popup_aac247a023494c5783eaa909be3a4d8a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c14b5cb8a8904915bae2c8a31880a76a = $(`<div id="html_c14b5cb8a8904915bae2c8a31880a76a" style="width: 100.0%; height: 100.0%;">Enfants-Rouges Cluster 4</div>`)[0];
+            popup_aac247a023494c5783eaa909be3a4d8a.setContent(html_c14b5cb8a8904915bae2c8a31880a76a);
+        
+
+        circle_marker_5ea258621f1c48e6a6150e71f5d33ca3.bindPopup(popup_aac247a023494c5783eaa909be3a4d8a)
+        ;
+
+        
+    
+    
+            var circle_marker_fcef72b65ffd47f7bde4374f9262960f = L.circleMarker(
+                [48.8622891081, 2.34489885831],
+                {"bubblingMouseEvents": true, "color": "#ffb360", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb360", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c93d05dc326a4f2abcc452f74f827bb5);
+        
+    
+        var popup_8c0b820bacdb44f7905a1d64018109e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82133cba9b334242a38af8b98e9c996e = $(`<div id="html_82133cba9b334242a38af8b98e9c996e" style="width: 100.0%; height: 100.0%;">Halles Cluster 4</div>`)[0];
+            popup_8c0b820bacdb44f7905a1d64018109e9.setContent(html_82133cba9b334242a38af8b98e9c996e);
+        
+
+        circle_marker_fcef72b65ffd47f7bde4374f9262960f.bindPopup(popup_8c0b820bacdb44f7905a1d64018109e9)
+        ;
+
+        
+    
+    
+            var circle_marker_a29c92506e5c438f82a02392a15a4800 = L.circleMarker(
+                [48.8646599781, 2.33630891897],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c93d05dc326a4f2abcc452f74f827bb5);
+        
+    
+        var popup_e43860e88a384493a238a9f63f0a2ca5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b85bc1b43e04f4e9339411f71a41061 = $(`<div id="html_6b85bc1b43e04f4e9339411f71a41061" style="width: 100.0%; height: 100.0%;">Palais-Royal Cluster 1</div>`)[0];
+            popup_e43860e88a384493a238a9f63f0a2ca5.setContent(html_6b85bc1b43e04f4e9339411f71a41061);
+        
+
+        circle_marker_a29c92506e5c438f82a02392a15a4800.bindPopup(popup_e43860e88a384493a238a9f63f0a2ca5)
+        ;
+
+        
+    
+    
+            var circle_marker_b414c49b0b9c4d4a85e6004f03be3c5b = L.circleMarker(
+                [48.8606501352, 2.33491032928],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c93d05dc326a4f2abcc452f74f827bb5);
+        
+    
+        var popup_5c15bb11e03a4104a778945abb161abe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f058ca75aaf46279bffd5be595606ed = $(`<div id="html_0f058ca75aaf46279bffd5be595606ed" style="width: 100.0%; height: 100.0%;">Saint-Germain-l&#39;Auxerrois Cluster 1</div>`)[0];
+            popup_5c15bb11e03a4104a778945abb161abe.setContent(html_0f058ca75aaf46279bffd5be595606ed);
+        
+
+        circle_marker_b414c49b0b9c4d4a85e6004f03be3c5b.bindPopup(popup_5c15bb11e03a4104a778945abb161abe)
+        ;
+
+        
+    
+    
+            var circle_marker_c99df59e15274b3aa6df53f20a8dd99d = L.circleMarker(
+                [48.8670185906, 2.32858166493],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c93d05dc326a4f2abcc452f74f827bb5);
+        
+    
+        var popup_2726d20a91a3417eaf91cbbf8abde4b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c50f7103d304c24a48287aac0d6a185 = $(`<div id="html_7c50f7103d304c24a48287aac0d6a185" style="width: 100.0%; height: 100.0%;">Place-Vendôme Cluster 1</div>`)[0];
+            popup_2726d20a91a3417eaf91cbbf8abde4b5.setContent(html_7c50f7103d304c24a48287aac0d6a185);
+        
+
+        circle_marker_c99df59e15274b3aa6df53f20a8dd99d.bindPopup(popup_2726d20a91a3417eaf91cbbf8abde4b5)
+        ;
+
+        
+    
+    
+            var circle_marker_56cb7462e9a54979ad9b2aa142379fa2 = L.circleMarker(
+                [48.85528872, 2.33365686809],
+                {"bubblingMouseEvents": true, "color": "#80ffb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#80ffb4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c93d05dc326a4f2abcc452f74f827bb5);
+        
+    
+        var popup_f0349a86b8bb401f83d91bca1e56be36 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95a2d9bcd81648a6bbfd063de7f94684 = $(`<div id="html_95a2d9bcd81648a6bbfd063de7f94684" style="width: 100.0%; height: 100.0%;">Saint-Germain-des-Prés Cluster 3</div>`)[0];
+            popup_f0349a86b8bb401f83d91bca1e56be36.setContent(html_95a2d9bcd81648a6bbfd063de7f94684);
+        
+
+        circle_marker_56cb7462e9a54979ad9b2aa142379fa2.bindPopup(popup_f0349a86b8bb401f83d91bca1e56be36)
+        ;
+
+        
+    
+    
+            var circle_marker_ccbfda37313a4b8cb6128d02b1142c6a = L.circleMarker(
+                [48.8543844036, 2.34003537113],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c93d05dc326a4f2abcc452f74f827bb5);
+        
+    
+        var popup_45d75dd48de946c182567b3357242271 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9206cc13a8f40488adfaface3098aec = $(`<div id="html_a9206cc13a8f40488adfaface3098aec" style="width: 100.0%; height: 100.0%;">Monnaie Cluster 1</div>`)[0];
+            popup_45d75dd48de946c182567b3357242271.setContent(html_a9206cc13a8f40488adfaface3098aec);
+        
+
+        circle_marker_ccbfda37313a4b8cb6128d02b1142c6a.bindPopup(popup_45d75dd48de946c182567b3357242271)
+        ;
+
+        
+    
+    
+            var circle_marker_ae8bfb3e26a643a584c9605c0a8ca22e = L.circleMarker(
+                [48.8478006293, 2.33633882759],
+                {"bubblingMouseEvents": true, "color": "#ffb360", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb360", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c93d05dc326a4f2abcc452f74f827bb5);
+        
+    
+        var popup_b6132a25fcb84178be6ceb1cb0fdcca2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e2a13a80ad8457985a779c5dd463f39 = $(`<div id="html_3e2a13a80ad8457985a779c5dd463f39" style="width: 100.0%; height: 100.0%;">Odéon Cluster 4</div>`)[0];
+            popup_b6132a25fcb84178be6ceb1cb0fdcca2.setContent(html_3e2a13a80ad8457985a779c5dd463f39);
+        
+
+        circle_marker_ae8bfb3e26a643a584c9605c0a8ca22e.bindPopup(popup_b6132a25fcb84178be6ceb1cb0fdcca2)
+        ;
+
+        
+    
+    
+            var circle_marker_6bd2f78e71ba419aacf425c4245a276c = L.circleMarker(
+                [48.846427594, 2.32735687823],
+                {"bubblingMouseEvents": true, "color": "#80ffb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#80ffb4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c93d05dc326a4f2abcc452f74f827bb5);
+        
+    
+        var popup_92b72aba17db4c5ba98d01517adf0d5d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b59ee9101c5c4d9ca8a8014bb496b21f = $(`<div id="html_b59ee9101c5c4d9ca8a8014bb496b21f" style="width: 100.0%; height: 100.0%;">Notre-Dame-des-Champs Cluster 3</div>`)[0];
+            popup_92b72aba17db4c5ba98d01517adf0d5d.setContent(html_b59ee9101c5c4d9ca8a8014bb496b21f);
+        
+
+        circle_marker_6bd2f78e71ba419aacf425c4245a276c.bindPopup(popup_92b72aba17db4c5ba98d01517adf0d5d)
+        ;
+
+        
+    
+</script>
